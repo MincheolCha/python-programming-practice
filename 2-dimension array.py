@@ -20,3 +20,14 @@ print(oneDim)
 twoDim = numpy.array([[1,2,3],[4,5,7]])
 print(twoDim)
 print(twoDim.shape)
+
+List = [2,3,4,5]
+one = numpy.array(List)
+print(one)
+
+
+two = numpy.zeros((0,10))
+print(two)
+
+for i in range(10):
+    print(i)
